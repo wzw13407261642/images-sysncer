@@ -34,4 +34,4 @@ jobs:
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run: |
         #!/usr/bin/env bash
-        skopeo copy docker://docker.io/mysql:5.7 docker://registry.cn-hangzhou.aliyuncs.com/docker_image-ljx/mysql:5.7
+        skopeo copy docker://docker.io/hanchuanchuan/goinception docker://registry.cn-hangzhou.aliyuncs.com/docker_image-ljx/goinception
