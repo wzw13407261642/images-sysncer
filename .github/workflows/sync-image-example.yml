@@ -34,4 +34,4 @@ jobs:
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run: |
         #!/usr/bin/env bash
-        skopeo copy docker://docker.io/kibana:7.17.23 docker://registry.cn-hangzhou.aliyuncs.com/docker_image-ljx/kibana:7.17.23
+        skopeo copy docker://docker.io/kibana:8.14.0 docker://registry.cn-hangzhou.aliyuncs.com/docker_image-ljx/kibana:8.14.0
