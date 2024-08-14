@@ -34,4 +34,4 @@ jobs:
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run: |
         #!/usr/bin/env bash
-        skopeo copy docker://docker.io/openjdk:11-jdk docker://registry.cn-hangzhou.aliyuncs.com/docker_image-ljx/openjdk:11-jdk
+        skopeo copy docker://docker.io/nacos/nacos-server:v2.2.2-slim docker://registry.cn-hangzhou.aliyuncs.com/docker_image-ljx/nacos-server:v2.2.2-slim
