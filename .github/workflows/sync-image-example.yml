@@ -34,4 +34,4 @@ jobs:
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run: |
         #!/usr/bin/env bash
-        skopeo copy docker://docker.io/calico/kube-controllers:v3.27.3 docker://registry.cn-hangzhou.aliyuncs.com/docker_image-ljx/kube-controllers:v3.27.3
+        skopeo copy docker://docker.io/nginx:stable docker://registry.cn-hangzhou.aliyuncs.com/docker_image-ljx/nginx:stable
