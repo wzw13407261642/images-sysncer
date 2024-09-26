@@ -34,4 +34,4 @@ jobs:
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run: |
         #!/usr/bin/env bash
-        skopeo copy docker://docker.io/wjiec/alidns-webhook:v1.0.0 docker://registry.cn-hangzhou.aliyuncs.com/docker_image-ljx/alidns-webhook:v1.0.0
+        skopeo copy docker://docker.io/rancher/fleet-agent:v0.9.5 docker://registry.cn-hangzhou.aliyuncs.com/docker_image-ljx/fleet-agent:v0.9.5
