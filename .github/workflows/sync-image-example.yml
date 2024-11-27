@@ -34,4 +34,4 @@ jobs:
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run: |
         #!/usr/bin/env bash
-        skopeo copy docker://docker.io/library/busybox:1.28 docker://registry.cn-hangzhou.aliyuncs.com/docker_image-ljx/busybox:1.28
+        skopeo copy docker://docker.io/library/calico/node:v3.27.3 docker://registry.cn-hangzhou.aliyuncs.com/docker_image-ljx/node:v3.27.3
