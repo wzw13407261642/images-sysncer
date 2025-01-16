@@ -34,4 +34,4 @@ jobs:
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run: |
         #!/usr/bin/env bash
-        skopeo copy docker://docker.io/calico/node:v3.27.5 docker://registry.cn-hangzhou.aliyuncs.com/docker_image-ljx/calico-node:v3.27.5
+        skopeo copy docker://registry.k8s.io/sig-storage/nfs-subdir-external-provisioner:v4.0.2 docker://registry.cn-hangzhou.aliyuncs.com/docker_image-ljx/nfs-subdir-external-provisioner:v4.0.2
