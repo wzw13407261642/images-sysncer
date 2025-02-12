@@ -34,4 +34,4 @@ jobs:
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run: |
         #!/usr/bin/env bash
-        skopeo copy docker://docker.io/easysoft/zentao:21.4 docker://registry.cn-hangzhou.aliyuncs.com/docker_image-ljx/zentao:21.4
+        skopeo copy docker://docker.io/easysoft/zentao:21.0 docker://registry.cn-hangzhou.aliyuncs.com/docker_image-ljx/zentao:21.0
