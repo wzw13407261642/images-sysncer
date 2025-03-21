@@ -34,4 +34,4 @@ jobs:
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run: |
         #!/usr/bin/env bash
-        skopeo copy docker://docker.io/starrocks/operator:v1.10.0 docker://registry.cn-hangzhou.aliyuncs.com/docker_image-ljx/starrocks_operator:v1.10.0
+        skopeo copy docker://docker.io/starrocks/fe-ubuntu:3.3-latest docker://registry.cn-hangzhou.aliyuncs.com/docker_image-ljx/starrocks_fe-ubuntu:3.3-latest
