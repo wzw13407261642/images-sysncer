@@ -36,9 +36,29 @@ jobs:
           #!/usr/bin/env bash
           # 定义镜像列表
           IMAGES=(
-            "docker.io/langgenius/dify-web:1.1.2"
-            "docker.io/postgres:15-alpine"
-            "docker.io/redis:6-alpine"
+            "docker.io/langgenius/dify-sandbox:0.2.10"
+            "docker.io/langgenius/dify-plugin-daemon:0.0.6-local"
+            "docker.io/ubuntu/squid:latest"
+            "docker.io/certbot/certbot:latest"
+            "docker.io/nginx:latest"
+            "docker.io/semitechnologies/weaviate:1.19.0"
+            "docker.io/langgenius/qdrant:v1.7.3"
+            "docker.io/pgvector/pgvector:pg16"
+            "docker.io/tensorchord/pgvecto-rs:pg16-v0.3.0"
+            "docker.io/ghcr.io/chroma-core/chroma:0.5.20"
+            "docker.io/quay.io/oceanbase/oceanbase-ce:4.3.3.0-100000142024101215"
+            "docker.io/container-registry.oracle.com/database/free:latest"
+            "docker.io/quay.io/coreos/etcd:v3.5.5"
+            "docker.io/container-registry.oracle.com/database/free:latest"
+            "docker.io/minio/minio:RELEASE.2023-03-20T20-16-18Z"
+            "docker.io/milvusdb/milvus:v2.5.0-beta"
+            "docker.io/opensearchproject/opensearch:latest"
+            "docker.io/opensearchproject/opensearch-dashboards:latest"
+            "docker.io/opengauss/opengauss:7.0.0-RC1"
+            "docker.io/myscale/myscaledb:1.6.4"
+            "docker.io/docker.elastic.co/elasticsearch/elasticsearch:8.14.3"
+            "docker.io/docker.elastic.co/kibana/kibana:8.14.3"
+            "docker.io/downloads.unstructured.io/unstructured-io/unstructured-api:latest"
           )
           
           # 循环处理镜像
